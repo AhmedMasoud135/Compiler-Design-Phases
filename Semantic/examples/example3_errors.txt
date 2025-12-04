@@ -1,0 +1,11 @@
+// Example 3: Code with Errors 
+int x = 5;
+y = 10;
+int z = x + y;
+string name;
+name = 123;
+int add(int a, int b);
+add(x);
+float result;
+int value = result + 5;
+x = "hello";

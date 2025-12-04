@@ -1,0 +1,12 @@
+stack,symbols,input,action
+0,,int + int * int $,Shift 2
+0 2,int,+ int * int $,Reduce by T -> int
+0 4,T,+ int * int $,Shift 7
+0 4 7,T +,int * int $,Shift 2
+0 4 7 2,T + int,* int $,Reduce by T -> int
+0 4 7 4,T + T,* int $,Shift 6
+0 4 7 4 6,T + T *,int $,Shift 9
+0 4 7 4 6 9,T + T * int,$,Reduce by T -> T * int
+0 4 7 4,T + T,$,Reduce by E -> T
+0 4 7 10,T + E,$,Reduce by E -> T + E
+0 1,E,$,Accept

@@ -1,0 +1,8 @@
+int x;
+int y = 10;
+float z = 3.14;
+x = 5;
+int result = x + y;
+string name = "John";
+bool flag = true;
+int temp = x * 2;

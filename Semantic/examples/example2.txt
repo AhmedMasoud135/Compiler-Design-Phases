@@ -1,0 +1,9 @@
+int add(int a, int b);
+int multiply(int x, int y);
+float divide(float a, float b);
+int num1 = 10;
+int num2 = 20;
+add(num1, num2);
+multiply(5, 3);
+float result = 10.0;
+divide(result, 2.0);
